@@ -44,18 +44,57 @@ split-slider__second-section_left-side .split-slider__element {
     max-height: 300px;
 }
 
-.split-slider__das-img {
-    width: calc(50% + 2vw) !important;
-    display: flex;
-    margin: 0 auto;
-}
-
 .split-slider__gra_img {
     width: calc(50% + 5vw) !important;
     display: flex;
     margin: 0 auto;
 }
-
+@media (max-width: 1350px) and (min-width: 1200px) {
+    .third-section__img_right {
+        width: calc(25% + 2vw);
+        display: flex;
+        margin: 0 auto;
+    }
+    .seventh-section__img_right {
+        width: calc(70% + 3vw) !important;
+        display: flex;
+        margin: 0 auto;
+    }
+    .split-slider__text {
+        font-size: 16px !important;
+        margin: 10px 0 !important;
+    }
+    h3.split-slider__title {
+        font-size: calc(25px + 1vw) !important;
+    }
+    .split-slider__second-section_bottom .split-slider__img {
+        width: auto !important;
+    }
+    .split-slider__das-img {
+        width: 350px !important; /* calc(50% + 2vw) */
+        display: flex;
+        margin: 0 auto;
+    }
+    .split-slider__third-section-left-side .split-slider__gra_img {
+        width: 350px !important;
+    }
+    .sixth-section__loupe {
+        width: 95px !important;
+    }
+    h2.split-slider__title {
+        font-size: 30px !important;
+    }
+    .split-slider__seventh-section_left-side img {
+        width: 150px !important;
+        height: auto !important;
+    }
+    .split-slider__big-num {
+        font-size: calc(30px + 1vw) !important;
+    }
+    h5.split-slider__title {
+        font-size: 25px !important;
+    }
+}
 @media (max-width: 1200px) and (min-width: 1000px) {
     .third-section__img_right {
         width: calc(25% + 2vw);
@@ -67,19 +106,44 @@ split-slider__second-section_left-side .split-slider__element {
         display: flex;
         margin: 0 auto;
     }
+    .split-slider__text {
+        font-size: 16px !important;
+        margin: 5px 0 !important;
+    }
+    h3.split-slider__title {
+        font-size: calc(25px + 1vw) !important;
+    }
+    .split-slider__second-section_bottom .split-slider__img {
+        width: 130px !important;
+    }
+    .split-slider__das-img {
+        width: 150px !important; /* calc(50% + 2vw) */
+        display: flex;
+        margin: 0 auto;
+    }
+    .split-slider__third-section-left-side .split-slider__gra_img {
+        width: 250px !important;
+    }
+    .sixth-section__loupe {
+        width: 95px !important;
+    }
+    h2.split-slider__title {
+        font-size: 30px !important;
+    }
+    .split-slider__seventh-section_left-side img {
+        width: 109px !important;
+        height: auto !important;
+    }
+    .split-slider__big-num {
+        font-size: calc(30px + 1vw) !important;
+    }
+    h5.split-slider__title {
+        font-size: 25px !important;
+    }
 }
 
 @media (max-width: 1200px) {
-    .split-slider__seventh-section_left-side img {
-        width: 150px !important;
-        height: 150px !important;
-    }
-}
-@media (max-width: 1200px) {
-    .split-slider__seventh-section_left-side img {
-        width: 150px !important;
-        height: 150px !important;
-    }
+
 }
 
 .mw100p {
@@ -307,7 +371,7 @@ h5.split-slider__title {
     background: url(./1/Das-sind-wir_Inklusion.jpg);
     background-position: 50% 0%;
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 
