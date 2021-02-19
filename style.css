@@ -11,7 +11,8 @@
 
 @font-face {
     font-family: Amata; /* Имя шрифта */
-    src: url(./15467.ttf); /* Путь к файлу со шрифтом */
+    /* src: url(./15467.ttf);  */
+    src: url(./fonts/AmaticSC-Bold.ttf); /* Путь к файлу со шрифтом */
 }
 @font-face {
     font-family: Montserrat; /* Имя шрифта */
@@ -51,7 +52,7 @@ split-slider__second-section_left-side .split-slider__element {
 }
 @media (max-width: 1500px) and (min-height: 900px) {
     .split-slider__das-img {
-        width: 300px !important;
+        width: 350px !important;
     }
 }
 @media (max-width: 1350px) and (min-width: 1200px) {
@@ -122,7 +123,7 @@ split-slider__second-section_left-side .split-slider__element {
         width: 130px !important;
     }
     .split-slider__das-img {
-        width: 150px !important; /* calc(50% + 2vw) */
+        width: 350px !important; /* calc(50% + 2vw) */
         display: flex;
         margin: 0 auto;
     }
@@ -144,6 +145,27 @@ split-slider__second-section_left-side .split-slider__element {
     }
     h5.split-slider__title {
         font-size: 25px !important;
+    }
+    .split-slider__point-hint {
+        position: absolute;
+        top: 20%;
+        left: -129px;
+    }
+    
+    .split-slider__point-hint-text {
+        transform: rotate(-17deg);
+        position: relative;
+        right: -35px !important;
+        font-size: 12px;
+        top: -3px;
+    }
+    
+    .split-slider__point-hint-img {
+        position: absolute;
+        top: 27px !important;
+        right: -25px !important;
+        width: 24px;
+        transform: scale(1, -1) rotate(-95deg);
     }
 }
 
@@ -224,6 +246,12 @@ split-slider__second-section_left-side .split-slider__element {
 
 
 /* Common begin */
+
+.little-sim {
+    font-size: 24px;
+    vertical-align: text-top;
+}
+
 .split-slider__section-wrapper {
     display: flex;
     flex-direction: column;
@@ -286,21 +314,26 @@ h5.split-slider__title {
     font-size: 35px;;
     color: var(--text-color);
 }
+h6 {
+    margin: 15px auto;
+}
 
 .split-slider__big-num {
     font-family: var(--text-font);
     font-size: calc(40px + 1vw);
-    font-weight: 700;
+    font-weight: 500;
     color: var(--dark-blue);   
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .split-slider__hint {
+    font-family: var(--title-font);
     margin: 10px 0;
     text-align: center;
     font-size: 10px;
     font-weight: 600;
-    color: var(--dark-blue);
+    /* color: var(--dark-blue); */
+    color: var(--title-color);
 }
 
 .w60p {
@@ -345,6 +378,11 @@ h5.split-slider__title {
     font-size: 20px;
     color: var(--text-color);
 }
+@media (max-width: 1350px) and (min-width: 1000px) {
+    .split-slider__text {
+        max-width: 450px !important;
+    }
+}
 
 .split-slider__big-text {
     font-family: var(--text-font);
@@ -355,6 +393,31 @@ h5.split-slider__title {
 
 
 /* First Section Left Part */
+
+.split-slider__point-hint {
+    position: absolute;
+    top: 20%;
+    left: -129px;
+}
+
+.split-slider__point-hint-text {
+    transform: rotate(-17deg);
+    position: relative;
+    right: -6px;
+    top: -3px;
+    font-family: 'Amata';
+    color: var(--text-color);
+    font-size: 22px;
+}
+
+.split-slider__point-hint-img {
+    position: absolute;
+    top: 41px;
+    right: 12px;
+    width: 24px;
+    transform: scale(1, -1) rotate(-95deg);
+}
+
 .split-slider__first-section_left-side {
     background: var(--light-blue);
 }
@@ -387,6 +450,15 @@ h5.split-slider__title {
 /* Second Section Left Part */
 .split-slider__second-section_left-side {
     background: var(--light);
+}
+
+.second-left-section__img {
+    max-width: 200px;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+    .second-left-section__img {
+        max-width: 200px;
+    }
 }
 
 .split-slider__second-section_bottom {
@@ -454,6 +526,20 @@ h5.split-slider__title {
     padding-bottom: 7px;
 }
 
+h3.fourth-section__left-side-title {
+    margin: 0 !important;
+}
+
+h4.fourth-section__left-side-title {
+    color: var(--title-color);
+    margin-bottom: 10px;
+    font-size: calc(40px + 1vw) !important;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+    h4.fourth-section__left-side-title {
+        font-size: calc(25px + 1vw) !important;
+    }
+}
 /* Sixth Section Part */
 
 .split-slider__sixth-section_right-side {
