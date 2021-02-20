@@ -264,6 +264,9 @@ split-slider__second-section_left-side .split-slider__element {
     .split-slider__seventh-section_right-side img {
         width: 300px !important;
     }
+    .split-slider__point-hint {
+        display: none !important;
+    }
 }
 
 /* Common begin */
