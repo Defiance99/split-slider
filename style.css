@@ -412,7 +412,11 @@ h6 {
 .split-slider__white-button h6 {
     font-size: 25px;
     font-weight: 600;
-    padding: 6px 20px;
+    padding: 6px 30px;
+    background-color: #FFF;
+}
+.split-slider__white-button h6:hover {
+    color: var(--text-color);
 }
 
 .split-slider__white-button {
@@ -592,6 +596,25 @@ h6 {
     max-width: 210px;
     width: 100%;
     height: auto;
+}
+
+.split-slider__block_top {
+    position: relative;
+}
+
+.split-slider__block_center {
+    position: absolute;
+    top: calc(70% + 45px);
+    left: calc(50% - 24px);
+}
+
+.ms-border {
+    border: 2px var(--dark-blue) solid;
+}
+
+.ms-border h6 {
+    margin: 0;
+    padding: 4px 35px;
 }
 
 /* Third Section Part */
@@ -1026,10 +1049,26 @@ padding: 10px;
 }
 
 .split-slider__seventh-section_right-side .split-slider__blue-button {
+    
+
+
     max-width: 255px;
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
+}
+
+.split-slider__blue-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    text-decoration: none;
+}
+.split-slider__blue-button:hover {
+    text-decoration: underline;
+    color: #FFF;
+    cursor: pointer;
 }
 
 .split-slider__seventh-section_left-side img {
