@@ -466,6 +466,7 @@ h6 {
     font-family: 'Amata';
     color: var(--text-color);
     font-size: 22px;
+    text-align: center;
 }
 
 .split-slider__point-hint-img {
