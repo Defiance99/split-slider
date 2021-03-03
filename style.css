@@ -1158,6 +1158,13 @@ padding: 10px;
     }
     .ms-left-column-single-message {
         height: 146px;
+    } 
+    .split-slider__map_top .split-slider__title-map {
+        right: 11px;
+        bottom: 44px;
+    }
+    .split-slider__map_bottom .split-slider__title-map {
+        bottom: 43px;
     }
 }
 @media (max-width: 490px) {
