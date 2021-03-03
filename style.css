@@ -1118,6 +1118,10 @@ padding: 10px;
         margin-top: 0;
         padding: 60px 0;
     }
+    .split-slider__first-section_right-side {
+        width: 100%;
+        height: 70vh;
+    }
 }
 @media (max-width: 650px) {
     .second_left-section__imgs-wrapper .second-left-section__img {
@@ -1125,6 +1129,9 @@ padding: 10px;
     }
 }
 @media (max-width: 500px) {
+    .fourth-section__left-side-title {
+        text-align: center;
+    }
     .ms-left-side-column__img__bottom {
         max-width: 209px;
     }
