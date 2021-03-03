@@ -99,7 +99,7 @@ split-slider__second-section_left-side .split-slider__element {
     }
     .secont-right-section__img-right {
         position: relative;
-        left: 25px;
+        left: 16px;
     }
     .split-slider__das-img {
         width: 350px !important; /* calc(50% + 2vw) */
@@ -535,7 +535,7 @@ h6 {
 }
 @media (min-width: 1400px) {
     .second-left-section__img-left {
-        right: 25px;
+        right: 30px;
     }
     .secont-right-section__img-right {
         left: 15px;
