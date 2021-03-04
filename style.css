@@ -83,6 +83,11 @@ h1, h2, h3, h4, h5, h6 {
 .ms-overflow-hid {
     overflow: hidden !important;
 }
+@media (min-width: 1200px) {
+    .ms-background-layout::before {
+        left: 75%;
+    }
+}
 @media (max-width: 620px) {
     .ms-video__wrapper {
         width: 300px;
